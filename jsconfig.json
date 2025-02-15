@@ -1,0 +1,10 @@
+{  
+  "compilerOptions": {
+    "target": "ES2020",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react" // or "react-native"
+  },
+  "include": ["src/**/*", "./src/**/*.js", "src", "/node_modules/**/*"]
+}
